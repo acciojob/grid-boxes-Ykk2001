@@ -1,13 +1,14 @@
 /*  your css code here. If applicable */
 #grid{
 	display:grid;
-	grid-template-columns:1fr 1fr 1fr 1fr;
+	grid-template-columns:242.5px 242.5px 242.5px 242.5px 242.5px;
+	grid-template-rows:124px 124px 124px 124px 124px ;
 	grid-template-areas:'one one one one'
 	                     'two three four four'
 	                      'two five five six'
 	                       'two seven eight nine'
 	                       'two ten ten ten';
-	/* gap:5px 5px; */
+	gap:10px 10px;
 	background-color:green;
 	width:100vw;
 	height:100vh;
